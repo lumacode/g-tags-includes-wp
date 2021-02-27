@@ -1,6 +1,6 @@
 <?php 
 /* 
-Plugin Name: G-Tag Include 
+Plugin Name: G-Tags Include 
 Plugin URI:
 Description: Agrega las etiquetas de Google Analytics y Adwords al head de forma simple y rápida.  
 Version: 1.0.0
