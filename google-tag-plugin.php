@@ -122,7 +122,7 @@ function gtag_template()
           <label for='analy'>Agregar Google tags:</label> <br>
           <textarea id='analy' class='mt-gtag text-area-gtag' name='g_tag'><?=esc_html($g_tag)?></textarea> <br>
             <div class='alert-success-gtag'> 
-              Las etiquetas han sido agregadas correctamente 
+              La información ha sido actualizada correctamente
             </div>
           <button class='mt-gtag btn-gtag' type='submit'>Guardar</button>
         </form>
