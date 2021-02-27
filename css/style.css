@@ -1,0 +1,88 @@
+.container-gtag{
+    margin: 0 auto;
+    width: 90%;
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+.container-gtag h2 {
+    font-size: 28px;
+}
+
+.container-gtag h2 img{
+    width: 65px;
+    float: right;
+}
+
+
+.text-primary {
+    color:rgb(72, 72, 194);
+}
+
+
+.container-gtag p {
+    font-size: 15px;
+}
+
+.mt-gtag{
+    margin-top: 25px;
+}
+
+.mb-gtag{
+    margin-bottom: 25px;
+}
+
+.text-area-gtag{
+    padding: 6px;
+    width: 100%;
+    min-height: 440px;
+}
+
+.btn-gtag{
+    background:  rgb(96, 173, 224);
+    color: rgb(255, 255, 255);
+    transition: background 1s;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.btn-gtag:hover{
+    background: rgb(26, 148, 230);
+    
+}
+
+.alert-success-gtag{
+    background-color: rgb(30, 187, 16);
+    padding: 6px;
+    width: 96%; 
+    color: aliceblue;
+    border-radius: 3px;
+    transition: all 1s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    display: none;
+    
+}
+
+@media(min-width: 764px){
+    .alert-success-gtag{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 25px;
+        
+        
+    }
+}
+
+.by-gtag{
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(156, 156, 156);
+}
