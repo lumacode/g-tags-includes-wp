@@ -101,6 +101,8 @@ function gtag_insert_tags()
 
 }
 
+add_action('init', 'gtag_insert_tags');
+
 //Template
 
 function gtag_template()
@@ -135,9 +137,7 @@ function gtag_template()
     <?php
 }
 
-//Listening and run actions 
-
-gtag_insert_tags();
+//Insert gtad in head page
 
 function gtag_global()
 {
